@@ -1,0 +1,25 @@
+.results-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  td {
+    border: 1px solid rgb(240, 112, 7);
+    padding: 5px
+  }
+  
+  .btn {
+    width: 160px;
+    height: 50px;
+    background-color: aquamarine;
+    cursor: pointer;
+    border-radius: 11px;
+    padding:5px;
+    transition: 0.5s
+  }
+
+  .btn:hover {
+    background-color: yellowgreen;
+    height: 60px;
+    width: 170px
+  }
